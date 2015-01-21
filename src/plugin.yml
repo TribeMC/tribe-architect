@@ -1,0 +1,52 @@
+name: Build
+main: archiV3.main
+version: 1.0
+author: V3lop5
+description: ArchitektPlugin
+commands:
+  architekt:
+    description: Create CMD
+  gm:
+    description: Gamemode command
+  gamemode:
+    description: Gamemode command
+  warp:
+    description: Warp CMD
+  setwarp:
+    description: setwarp cmd
+  w:
+    description: Warp cmd
+  builder:
+    description: Builder Management
+  t:
+    description: Time CMD
+  time:
+    description: Time CMD
+  freeze:
+    description: Freeze CMD
+  speed:
+    description: Speed CMD
+  s:
+    description: Speed CMD
+  lb:
+    description: Lets Build CMD
+  letsbuild:
+    description: Lets Build CMD
+  ce:
+    description: Command Executer
+  commandexecutor:
+    description: Command Executer
+  sun:
+    description: Wetter Sonne
+  tp:
+    description: Teleport CMD
+permissions:
+  build.create:
+    default: op
+    description: Create Perm
+  build.bypass:
+    default: op
+    description: AllOverPerm
+  build.letsbuild:
+    default: op
+    description: LetsBuildPerm
